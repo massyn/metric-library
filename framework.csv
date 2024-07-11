@@ -1,0 +1,115 @@
+id,framework,domain,sub_domain,control
+ISO27001:2013-A.5.1.1,ISO27001:2013,5 Security Policies,A.5.1 Management direction for information security,Policies for information security
+ISO27001:2013-A.5.1.2,ISO27001:2013,5 Security Policies,A.5.1 Management direction for information security,Review of the policies for information security
+ISO27001:2013-A.6.1.1,ISO27001:2013,6 Organization of information security,A.6.1 Internal organization,Information security roles and responsibilities
+ISO27001:2013-A.6.1.2,ISO27001:2013,6 Organization of information security,A.6.1 Internal organization,Segregation of duties
+ISO27001:2013-A.6.1.3,ISO27001:2013,6 Organization of information security,A.6.1 Internal organization,Contact with authorities
+ISO27001:2013-A.6.1.4,ISO27001:2013,6 Organization of information security,A.6.1 Internal organization,Contact with special interest groups
+ISO27001:2013-A.6.1.5,ISO27001:2013,6 Organization of information security,A.6.1 Internal organization,Information security in project management
+ISO27001:2013-A.6.2.1,ISO27001:2013,6 Organization of information security,A.6.2 Mobile devices and teleworking,Mobile device policy
+ISO27001:2013-A.6.2.2,ISO27001:2013,6 Organization of information security,A.6.2 Mobile devices and teleworking,Teleworking
+ISO27001:2013-A.7.1.1,ISO27001:2013,7 Human resource security,A.7.1 Prior to employment,Screening
+ISO27001:2013-A.7.1.2,ISO27001:2013,7 Human resource security,A.7.1 Prior to employment,Terms and conditions of employment
+ISO27001:2013-A.7.2.1,ISO27001:2013,7 Human resource security,A.7.2 During employment,Management responsibilities
+ISO27001:2013-A.7.2.2,ISO27001:2013,7 Human resource security,A.7.2 During employment,"Information security awareness, education and training"
+ISO27001:2013-A.7.2.3,ISO27001:2013,7 Human resource security,A.7.2 During employment,Disciplinary process
+ISO27001:2013-A.7.3.1,ISO27001:2013,7 Human resource security,A.7.3 Termination and change of employment,Termination or change of employment responsibilities
+ISO27001:2013-A.8.1.1,ISO27001:2013,8 Asset management,A.8.1 Responsibility for assets,Inventory of assets
+ISO27001:2013-A.8.1.2,ISO27001:2013,8 Asset management,A.8.1 Responsibility for assets,Ownership of assets
+ISO27001:2013-A.8.1.3,ISO27001:2013,8 Asset management,A.8.1 Responsibility for assets,Acceptable use of assets
+ISO27001:2013-A.8.1.4,ISO27001:2013,8 Asset management,A.8.1 Responsibility for assets,Return of assets
+ISO27001:2013-A.8.2.1,ISO27001:2013,8 Asset management,A.8.2 Information classification,Classification of information
+ISO27001:2013-A.8.2.2,ISO27001:2013,8 Asset management,A.8.2 Information classification,Labelling of information
+ISO27001:2013-A.8.2.3,ISO27001:2013,8 Asset management,A.8.2 Information classification,Handling of assets
+ISO27001:2013-A.8.3.1,ISO27001:2013,8 Asset management,A.8.3 Media handling,Management of removable media
+ISO27001:2013-A.8.3.2,ISO27001:2013,8 Asset management,A.8.3 Media handling,Disposal of media
+ISO27001:2013-A.8.3.3,ISO27001:2013,8 Asset management,A.8.3 Media handling,Physical media transfer
+ISO27001:2013-A.9.1.1,ISO27001:2013,9 Access control,A.9.1 Business requirements of access control,Access control policy
+ISO27001:2013-A.9.1.2,ISO27001:2013,9 Access control,A.9.1 Business requirements of access control,Access to networks and network services
+ISO27001:2013-A.9.2.1,ISO27001:2013,9 Access control,A.9.2 User access management,User registration and de-registration
+ISO27001:2013-A.9.2.2,ISO27001:2013,9 Access control,A.9.2 User access management,User access provisioning
+ISO27001:2013-A.9.2.3,ISO27001:2013,9 Access control,A.9.2 User access management,Management of privileged access rights
+ISO27001:2013-A.9.2.4,ISO27001:2013,9 Access control,A.9.2 User access management,Management of secret authentication information of users
+ISO27001:2013-A.9.2.5,ISO27001:2013,9 Access control,A.9.2 User access management,Review of user access rights
+ISO27001:2013-A.9.2.6,ISO27001:2013,9 Access control,A.9.2 User access management,Removal or adjustment of access rights
+ISO27001:2013-A.9.3.1,ISO27001:2013,9 Access control,A.9.3 User responsibilities,Use of secret authentication information
+ISO27001:2013-A.9.4.1,ISO27001:2013,9 Access control,A.9.4 System and application access control,Information access restriction
+ISO27001:2013-A.9.4.2,ISO27001:2013,9 Access control,A.9.4 System and application access control,Secure log-on procedures
+ISO27001:2013-A.9.4.3,ISO27001:2013,9 Access control,A.9.4 System and application access control,Password management system
+ISO27001:2013-A.9.4.4,ISO27001:2013,9 Access control,A.9.4 System and application access control,Use of privileged utility programs
+ISO27001:2013-A.9.4.5,ISO27001:2013,9 Access control,A.9.4 System and application access control,Access control to program source code
+ISO27001:2013-A.10.1.1,ISO27001:2013,10 Cryptography,A.10.1 Cryptographic controls,Policy on the use of cryptographic controls
+ISO27001:2013-A.10.1.2,ISO27001:2013,10 Cryptography,A.10.1 Cryptographic controls,Key management
+ISO27001:2013-A.11.1.1,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,Physical security perimeter
+ISO27001:2013-A.11.1.2,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,Physical entry controls
+ISO27001:2013-A.11.1.3,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,"Securing offices, rooms and facilities"
+ISO27001:2013-A.11.1.4,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,Protecting against external and environmental threats
+ISO27001:2013-A.11.1.5,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,Working in secure areas
+ISO27001:2013-A.11.1.6,ISO27001:2013,11 Physical and environmental security,A.11.1 Secure areas,Delivery and loading areas
+ISO27001:2013-A.11.2.1,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Equipment siting and protection
+ISO27001:2013-A.11.2.2,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Supporting utilities
+ISO27001:2013-A.11.2.3,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Cabling security
+ISO27001:2013-A.11.2.4,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Equipment maintenance
+ISO27001:2013-A.11.2.5,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Removal of assets
+ISO27001:2013-A.11.2.6,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Security of equipment and assets off-premises
+ISO27001:2013-A.11.2.7,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Secure disposal or reuse of equipment
+ISO27001:2013-A.11.2.8,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Unattended user equipment
+ISO27001:2013-A.11.2.9,ISO27001:2013,11 Physical and environmental security,A.11.2 Equipment,Clear desk and clear screen policy
+ISO27001:2013-A.12.1.1,ISO27001:2013,12 Operations security,A.12.1 Operational procedures and responsibilities,Documented operating procedures
+ISO27001:2013-A.12.1.2,ISO27001:2013,12 Operations security,A.12.1 Operational procedures and responsibilities,Change management
+ISO27001:2013-A.12.1.3,ISO27001:2013,12 Operations security,A.12.1 Operational procedures and responsibilities,Capacity management
+ISO27001:2013-A.12.1.4,ISO27001:2013,12 Operations security,A.12.1 Operational procedures and responsibilities,"Separation of development, testing and operational environments"
+ISO27001:2013-A.12.2.1,ISO27001:2013,12 Operations security,A.12.2 Protection from malware,Controls against malware
+ISO27001:2013-A.12.3.1,ISO27001:2013,12 Operations security,A.12.3 Backup,Information backup
+ISO27001:2013-A.12.4.1,ISO27001:2013,12 Operations security,A.12.4 Logging and monitoring,Event logging
+ISO27001:2013-A.12.4.2,ISO27001:2013,12 Operations security,A.12.4 Logging and monitoring,Protection of log information
+ISO27001:2013-A.12.4.3,ISO27001:2013,12 Operations security,A.12.4 Logging and monitoring,Administrator and operator logs
+ISO27001:2013-A.12.4.4,ISO27001:2013,12 Operations security,A.12.4 Logging and monitoring,Clock synchronisation
+ISO27001:2013-A.12.5.1,ISO27001:2013,12 Operations security,A.12.5 Control of operational software,Installation of software on operational systems
+ISO27001:2013-A.12.6.1,ISO27001:2013,12 Operations security,A.12.6 Technical vulnerability management,Management of technical vulnerabilities
+ISO27001:2013-A.12.6.2,ISO27001:2013,12 Operations security,A.12.6 Technical vulnerability management,Restrictions on software installation
+ISO27001:2013-A.12.7.1,ISO27001:2013,12 Operations security,A.12.7 Information systems audit considerations,Information systems audit controls
+ISO27001:2013-A.13.1.1,ISO27001:2013,13 Communications security,A.13.1 Network security management,Network controls
+ISO27001:2013-A.13.1.2,ISO27001:2013,13 Communications security,A.13.1 Network security management,Security of network services
+ISO27001:2013-A.13.1.3,ISO27001:2013,13 Communications security,A.13.1 Network security management,Segregation in networks
+ISO27001:2013-A.13.2.1,ISO27001:2013,13 Communications security,A.13.2 Information transfer,Information transfer policies and procedures
+ISO27001:2013-A.13.2.2,ISO27001:2013,13 Communications security,A.13.2 Information transfer,Agreements on information transfer
+ISO27001:2013-A.13.2.3,ISO27001:2013,13 Communications security,A.13.2 Information transfer,Electronic messaging
+ISO27001:2013-A.13.2.4,ISO27001:2013,13 Communications security,A.13.2 Information transfer,Confidentiality or nondisclosure agreements
+ISO27001:2013-A.14.1.1,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.1 Security requirements of information systems,Information security requirements analysis and specification
+ISO27001:2013-A.14.1.2,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.1 Security requirements of information systems,Securing application services on public networks
+ISO27001:2013-A.14.1.3,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.1 Security requirements of information systems,Protecting application services transactions
+ISO27001:2013-A.14.2.1,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Secure development policy
+ISO27001:2013-A.14.2.2,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,System change control procedures
+ISO27001:2013-A.14.2.3,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Technical review of applications after operating platform changes
+ISO27001:2013-A.14.2.4,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Restrictions on changes to software packages
+ISO27001:2013-A.14.2.5,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Secure system engineering principles
+ISO27001:2013-A.14.2.6,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Secure development environment
+ISO27001:2013-A.14.2.7,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,Outsourced development
+ISO27001:2013-A.14.2.8,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,System security testing
+ISO27001:2013-A.14.2.9,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.2 Security in development and support processes,System acceptance testing
+ISO27001:2013-A.14.3.1,ISO27001:2013,"14 System acquisition, development and maintenance",A.14.3 Test data,Protection of test data
+ISO27001:2013-A.15.1.1,ISO27001:2013,15 Supplier relationships,A.15.1 Information security in supplier relationships,Information security policy for supplier relationships
+ISO27001:2013-A.15.1.2,ISO27001:2013,15 Supplier relationships,A.15.1 Information security in supplier relationships,Addressing security within supplier agreements
+ISO27001:2013-A.15.1.3,ISO27001:2013,15 Supplier relationships,A.15.1 Information security in supplier relationships,Information and communication technology supply chain
+ISO27001:2013-A.15.2.1,ISO27001:2013,15 Supplier relationships,A.15.2 Supplier service delivery management,Monitoring and review of supplier services
+ISO27001:2013-A.15.2.2,ISO27001:2013,15 Supplier relationships,A.15.2 Supplier service delivery management,Managing changes to supplier services
+ISO27001:2013-A.16.1.1,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Responsibilities and procedures
+ISO27001:2013-A.16.1.2,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Reporting information security events
+ISO27001:2013-A.16.1.3,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Reporting information security weaknesses
+ISO27001:2013-A.16.1.4,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Assessment of and decision on information security events
+ISO27001:2013-A.16.1.5,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Response to information security incidents
+ISO27001:2013-A.16.1.6,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Learning from information security incidents
+ISO27001:2013-A.16.1.7,ISO27001:2013,16 Information security incident management,A.16.1 Management of information security incidents and improvements,Collection of evidence
+ISO27001:2013-A.17.1.1,ISO27001:2013,17 Information security aspects of business continuity management,A.17.1 Information security continuity,Planning information security continuity
+ISO27001:2013-A.17.1.2,ISO27001:2013,17 Information security aspects of business continuity management,A.17.1 Information security continuity,Implementing information security continuity
+ISO27001:2013-A.17.1.3,ISO27001:2013,17 Information security aspects of business continuity management,A.17.1 Information security continuity,"Verify, review and evaluate information security continuity"
+ISO27001:2013-A.17.2.1,ISO27001:2013,17 Information security aspects of business continuity management,A.17.2 Redundancies,Availability of information processing facilities
+ISO27001:2013-A.18.1.1,ISO27001:2013,18 Compliance,A.18.1 Compliance with legal and contractual requirements,Identification of applicable legislation and contractual requirements
+ISO27001:2013-A.18.1.2,ISO27001:2013,18 Compliance,A.18.1 Compliance with legal and contractual requirements,Intellectual property rights
+ISO27001:2013-A.18.1.3,ISO27001:2013,18 Compliance,A.18.1 Compliance with legal and contractual requirements,Protection of records
+ISO27001:2013-A.18.1.4,ISO27001:2013,18 Compliance,A.18.1 Compliance with legal and contractual requirements,Privacy and protection of personally identifiable information
+ISO27001:2013-A.18.1.5,ISO27001:2013,18 Compliance,A.18.1 Compliance with legal and contractual requirements,Regulation of cryptographic controls
+ISO27001:2013-A.18.2.1,ISO27001:2013,18 Compliance,A.18.2 Information security reviews,Independent review of information security
+ISO27001:2013-A.18.2.2,ISO27001:2013,18 Compliance,A.18.2 Information security reviews,Compliance with security policies and standards
+ISO27001:2013-A.18.2.3,ISO27001:2013,18 Compliance,A.18.2 Information security reviews,Technical compliance review
