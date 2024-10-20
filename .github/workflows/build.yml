@@ -1,4 +1,4 @@
-name: Daily Build
+name: Automated documentation creator
 on:
   push:
     branches:
