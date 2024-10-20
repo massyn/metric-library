@@ -1,0 +1,6 @@
+# Framework : {{ fwfilter }}
+
+|**Ref**|**Domain**|**Sub Domain**|**Control**|**Metrics**|
+|--|--|--|--|--|
+{% for f in thisfw %}|`{{ f }}`|{{ thisfw[f]['domain'] }}|{{ thisfw[f]['sub_domain'] }}|{{ thisfw[f]['control'] }}|{{ '<br>'.join(thisfw[f]['measures']) }}|
+{% endfor %}
