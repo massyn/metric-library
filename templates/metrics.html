@@ -4,7 +4,7 @@
 ## {{ domains[domain].title }}
 
 {% for metric in metrics %}{% if metric['domain'] == domain %}
-### {{ metric.title }}
+### {{ metric.domain }}{{ f'{metric.id:02}' }} - {{ metric.title }}
 
 > {{ metric.description }}
 
