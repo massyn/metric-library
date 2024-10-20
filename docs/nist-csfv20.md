@@ -62,7 +62,7 @@
 |`NIST CSF v2.0-ID.RA-05`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-05: Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization||
 |`NIST CSF v2.0-ID.RA-06`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-06: Risk responses are chosen, prioritized, planned, tracked, and communicated||
 |`NIST CSF v2.0-ID.RA-07`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-07: Changes and exceptions are managed, assessed for risk impact, recorded, and tracked||
-|`NIST CSF v2.0-ID.RA-08`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-08: Processes for receiving, analyzing, and responding to vulnerability disclosures are established|Systems without critical vulnerabilities<br>Systems without a vulnerability management agent|
+|`NIST CSF v2.0-ID.RA-08`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-08: Processes for receiving, analyzing, and responding to vulnerability disclosures are established|Systems without critical vulnerabilities<br>Systems without a vulnerability management agent<br>Time to remediate critical vulnerabilities<br>Percentage of vulnerabilities patched within SLA<br>Systems with known exploitable vulnerabilities|
 |`NIST CSF v2.0-ID.RA-09`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-09: The authenticity and integrity of hardware and software are assessed prior to acquisition and use||
 |`NIST CSF v2.0-ID.RA-10`|IDENTIFY (ID)|Risk Assessment (ID.RA)|ID.RA-10: Critical suppliers are assessed prior to acquisition||
 |`NIST CSF v2.0-PR.AA-01`|PROTECT (PR)|Identity Management, Authentication, and Access Control (PR.AA)|PR.AA-01: Identities and credentials for authorized users, services, and hardware are managed by the organization||
