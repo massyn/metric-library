@@ -1,0 +1,521 @@
+frameworks:
+  NIST CSF v2.0:
+    NIST CSF v2.0-DE.AE-02:
+      control: 'DE.AE-02: Potentially adverse events are analyzed to better understand
+        associated activities'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.AE-03:
+      control: 'DE.AE-03: Information is correlated from multiple sources'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.AE-04:
+      control: 'DE.AE-04: The estimated impact and scope of adverse events are understood'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.AE-06:
+      control: 'DE.AE-06: Information on adverse events is provided to authorized staff
+        and tools'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.AE-07:
+      control: 'DE.AE-07: Cyber threat intelligence and other contextual information
+        are integrated into the analysis'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.AE-08:
+      control: 'DE.AE-08: Incidents are declared when adverse events meet the defined
+        incident criteria'
+      domain: DETECT (DE)
+      sub_domain: Adverse Event Analysis (DE.AE)
+    NIST CSF v2.0-DE.CM-01:
+      control: 'DE.CM-01: Networks and network services are monitored to find potentially
+        adverse events'
+      domain: DETECT (DE)
+      sub_domain: Continuous Monitoring (DE.CM)
+    NIST CSF v2.0-DE.CM-02:
+      control: 'DE.CM-02: The physical environment is monitored to find potentially
+        adverse events'
+      domain: DETECT (DE)
+      sub_domain: Continuous Monitoring (DE.CM)
+    NIST CSF v2.0-DE.CM-03:
+      control: 'DE.CM-03: Personnel activity and technology usage are monitored to find
+        potentially adverse events'
+      domain: DETECT (DE)
+      sub_domain: Continuous Monitoring (DE.CM)
+    NIST CSF v2.0-DE.CM-06:
+      control: 'DE.CM-06: External service provider activities and services are monitored
+        to find potentially adverse events'
+      domain: DETECT (DE)
+      sub_domain: Continuous Monitoring (DE.CM)
+    NIST CSF v2.0-DE.CM-09:
+      control: 'DE.CM-09: Computing hardware and software, runtime environments, and
+        their data are monitored to find potentially adverse events'
+      domain: DETECT (DE)
+      sub_domain: Continuous Monitoring (DE.CM)
+    NIST CSF v2.0-GV.OC-01:
+      control: 'GV.OC-01: The organizational mission is understood and informs cybersecurity
+        risk management'
+      domain: GOVERN (GV)
+      sub_domain: Organizational Context (GV.OC)
+    NIST CSF v2.0-GV.OC-02:
+      control: 'GV.OC-02: Internal and external stakeholders are understood, and their
+        needs and expectations regarding cybersecurity risk management are understood
+        and considered'
+      domain: GOVERN (GV)
+      sub_domain: Organizational Context (GV.OC)
+    NIST CSF v2.0-GV.OC-03:
+      control: 'GV.OC-03: Legal, regulatory, and contractual requirements regarding
+        cybersecurity - including privacy and civil liberties obligations - are understood
+        and managed'
+      domain: GOVERN (GV)
+      sub_domain: Organizational Context (GV.OC)
+    NIST CSF v2.0-GV.OC-04:
+      control: 'GV.OC-04: Critical objectives, capabilities, and services that stakeholders
+        depend on or expect from the organization are understood and communicated'
+      domain: GOVERN (GV)
+      sub_domain: Organizational Context (GV.OC)
+    NIST CSF v2.0-GV.OC-05:
+      control: 'GV.OC-05: Outcomes, capabilities, and services that the organization
+        depends on are understood and communicated'
+      domain: GOVERN (GV)
+      sub_domain: Organizational Context (GV.OC)
+    NIST CSF v2.0-GV.OV-01:
+      control: 'GV.OV-01: Cybersecurity risk management strategy outcomes are reviewed
+        to inform and adjust strategy and direction'
+      domain: GOVERN (GV)
+      sub_domain: Oversight (GV.OV)
+    NIST CSF v2.0-GV.OV-02:
+      control: 'GV.OV-02: The cybersecurity risk management strategy is reviewed and
+        adjusted to ensure coverage of organizational requirements and risks'
+      domain: GOVERN (GV)
+      sub_domain: Oversight (GV.OV)
+    NIST CSF v2.0-GV.OV-03:
+      control: 'GV.OV-03: Organizational cybersecurity risk management performance is
+        evaluated and reviewed for adjustments needed'
+      domain: GOVERN (GV)
+      sub_domain: Oversight (GV.OV)
+    NIST CSF v2.0-GV.PO-01:
+      control: 'GV.PO-01: Policy for managing cybersecurity risks is established based
+        on organizational context, cybersecurity strategy, and priorities and is communicated
+        and enforced'
+      domain: GOVERN (GV)
+      sub_domain: Policy (GV.PO)
+    NIST CSF v2.0-GV.PO-02:
+      control: 'GV.PO-02: Policy for managing cybersecurity risks is reviewed, updated,
+        communicated, and enforced to reflect changes in requirements, threats, technology,
+        and organizational mission'
+      domain: GOVERN (GV)
+      sub_domain: Policy (GV.PO)
+    NIST CSF v2.0-GV.RM-01:
+      control: 'GV.RM-01: Risk management objectives are established and agreed to by
+        organizational stakeholders'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-02:
+      control: 'GV.RM-02: Risk appetite and risk tolerance statements are established,
+        communicated, and maintained'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-03:
+      control: 'GV.RM-03: Cybersecurity risk management activities and outcomes are
+        included in enterprise risk management processes'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-04:
+      control: 'GV.RM-04: Strategic direction that describes appropriate risk response
+        options is established and communicated'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-05:
+      control: 'GV.RM-05: Lines of communication across the organization are established
+        for cybersecurity risks, including risks from suppliers and other third parties'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-06:
+      control: 'GV.RM-06: A standardized method for calculating, documenting, categorizing,
+        and prioritizing cybersecurity risks is established and communicated'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RM-07:
+      control: 'GV.RM-07: Strategic opportunities (i.e., positive risks) are characterized
+        and are included in organizational cybersecurity risk discussions'
+      domain: GOVERN (GV)
+      sub_domain: Risk Management Strategy (GV.RM)
+    NIST CSF v2.0-GV.RR-01:
+      control: 'GV.RR-01: Organizational leadership is responsible and accountable for
+        cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually
+        improving'
+      domain: GOVERN (GV)
+      sub_domain: Roles, Responsibilities, and Authorities (GV.RR)
+    NIST CSF v2.0-GV.RR-02:
+      control: 'GV.RR-02: Roles, responsibilities, and authorities related to cybersecurity
+        risk management are established, communicated, understood, and enforced'
+      domain: GOVERN (GV)
+      sub_domain: Roles, Responsibilities, and Authorities (GV.RR)
+    NIST CSF v2.0-GV.RR-03:
+      control: 'GV.RR-03: Adequate resources are allocated commensurate with the cybersecurity
+        risk strategy, roles, responsibilities, and policies'
+      domain: GOVERN (GV)
+      sub_domain: Roles, Responsibilities, and Authorities (GV.RR)
+    NIST CSF v2.0-GV.RR-04:
+      control: 'GV.RR-04: Cybersecurity is included in human resources practices'
+      domain: GOVERN (GV)
+      sub_domain: Roles, Responsibilities, and Authorities (GV.RR)
+    NIST CSF v2.0-GV.SC-01:
+      control: 'GV.SC-01: A cybersecurity supply chain risk management program, strategy,
+        objectives, policies, and processes are established and agreed to by organizational
+        stakeholders'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-02:
+      control: 'GV.SC-02: Cybersecurity roles and responsibilities for suppliers, customers,
+        and partners are established, communicated, and coordinated internally and externally'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-03:
+      control: 'GV.SC-03: Cybersecurity supply chain risk management is integrated into
+        cybersecurity and enterprise risk management, risk assessment, and improvement
+        processes'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-04:
+      control: 'GV.SC-04: Suppliers are known and prioritized by criticality'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-05:
+      control: 'GV.SC-05: Requirements to address cybersecurity risks in supply chains
+        are established, prioritized, and integrated into contracts and other types
+        of agreements with suppliers and other relevant third parties'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-06:
+      control: 'GV.SC-06: Planning and due diligence are performed to reduce risks before
+        entering into formal supplier or other third-party relationships'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-07:
+      control: 'GV.SC-07: The risks posed by a supplier, their products and services,
+        and other third parties are understood, recorded, prioritized, assessed, responded
+        to, and monitored over the course of the relationship'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-08:
+      control: 'GV.SC-08: Relevant suppliers and other third parties are included in
+        incident planning, response, and recovery activities'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-09:
+      control: 'GV.SC-09: Supply chain security practices are integrated into cybersecurity
+        and enterprise risk management programs, and their performance is monitored
+        throughout the technology product and service life cycle'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-GV.SC-10:
+      control: 'GV.SC-10: Cybersecurity supply chain risk management plans include provisions
+        for activities that occur after the conclusion of a partnership or service agreement'
+      domain: GOVERN (GV)
+      sub_domain: Cybersecurity Supply Chain Risk Management (GV.SC)
+    NIST CSF v2.0-ID.AM-01:
+      control: 'ID.AM-01: Inventories of hardware managed by the organization are maintained'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-02:
+      control: 'ID.AM-02: Inventories of software, services, and systems managed by
+        the organization are maintained'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-03:
+      control: 'ID.AM-03: Representations of the organization''s authorized network
+        communication and internal and external network data flows are maintained'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-04:
+      control: 'ID.AM-04: Inventories of services provided by suppliers are maintained'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-05:
+      control: 'ID.AM-05: Assets are prioritized based on classification, criticality,
+        resources, and impact on the mission'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-07:
+      control: 'ID.AM-07: Inventories of data and corresponding metadata for designated
+        data types are maintained'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.AM-08:
+      control: 'ID.AM-08: Systems, hardware, software, services, and data are managed
+        throughout their life cycles'
+      domain: IDENTIFY (ID)
+      sub_domain: Asset Management (ID.AM)
+    NIST CSF v2.0-ID.IM-01:
+      control: 'ID.IM-01: Improvements are identified from evaluations'
+      domain: IDENTIFY (ID)
+      sub_domain: Improvement (ID.IM)
+    NIST CSF v2.0-ID.IM-02:
+      control: 'ID.IM-02: Improvements are identified from security tests and exercises,
+        including those done in coordination with suppliers and relevant third parties'
+      domain: IDENTIFY (ID)
+      sub_domain: Improvement (ID.IM)
+    NIST CSF v2.0-ID.IM-03:
+      control: 'ID.IM-03: Improvements are identified from execution of operational
+        processes, procedures, and activities'
+      domain: IDENTIFY (ID)
+      sub_domain: Improvement (ID.IM)
+    NIST CSF v2.0-ID.IM-04:
+      control: 'ID.IM-04: Incident response plans and other cybersecurity plans that
+        affect operations are established, communicated, maintained, and improved'
+      domain: IDENTIFY (ID)
+      sub_domain: Improvement (ID.IM)
+    NIST CSF v2.0-ID.RA-01:
+      control: 'ID.RA-01: Vulnerabilities in assets are identified, validated, and recorded'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-02:
+      control: 'ID.RA-02: Cyber threat intelligence is received from information sharing
+        forums and sources'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-03:
+      control: 'ID.RA-03: Internal and external threats to the organization are identified
+        and recorded'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-04:
+      control: 'ID.RA-04: Potential impacts and likelihoods of threats exploiting vulnerabilities
+        are identified and recorded'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-05:
+      control: 'ID.RA-05: Threats, vulnerabilities, likelihoods, and impacts are used
+        to understand inherent risk and inform risk response prioritization'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-06:
+      control: 'ID.RA-06: Risk responses are chosen, prioritized, planned, tracked,
+        and communicated'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-07:
+      control: 'ID.RA-07: Changes and exceptions are managed, assessed for risk impact,
+        recorded, and tracked'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-08:
+      control: 'ID.RA-08: Processes for receiving, analyzing, and responding to vulnerability
+        disclosures are established'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-09:
+      control: 'ID.RA-09: The authenticity and integrity of hardware and software are
+        assessed prior to acquisition and use'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-ID.RA-10:
+      control: 'ID.RA-10: Critical suppliers are assessed prior to acquisition'
+      domain: IDENTIFY (ID)
+      sub_domain: Risk Assessment (ID.RA)
+    NIST CSF v2.0-PR.AA-01:
+      control: 'PR.AA-01: Identities and credentials for authorized users, services,
+        and hardware are managed by the organization'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AA-02:
+      control: 'PR.AA-02: Identities are proofed and bound to credentials based on the
+        context of interactions'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AA-03:
+      control: 'PR.AA-03: Users, services, and hardware are authenticated'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AA-04:
+      control: 'PR.AA-04: Identity assertions are protected, conveyed, and verified'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AA-05:
+      control: 'PR.AA-05: Access permissions, entitlements, and authorizations are defined
+        in a policy, managed, enforced, and reviewed, and incorporate the principles
+        of least privilege and separation of duties'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AA-06:
+      control: 'PR.AA-06: Physical access to assets is managed, monitored, and enforced
+        commensurate with risk'
+      domain: PROTECT (PR)
+      sub_domain: Identity Management, Authentication, and Access Control (PR.AA)
+    NIST CSF v2.0-PR.AT-01:
+      control: 'PR.AT-01: Personnel are provided with awareness and training so that
+        they possess the knowledge and skills to perform general tasks with cybersecurity
+        risks in mind'
+      domain: PROTECT (PR)
+      sub_domain: Awareness and Training (PR.AT)
+    NIST CSF v2.0-PR.AT-02:
+      control: 'PR.AT-02: Individuals in specialized roles are provided with awareness
+        and training so that they possess the knowledge and skills to perform relevant
+        tasks with cybersecurity risks in mind'
+      domain: PROTECT (PR)
+      sub_domain: Awareness and Training (PR.AT)
+    NIST CSF v2.0-PR.DS-01:
+      control: 'PR.DS-01: The confidentiality, integrity, and availability of data-at-rest
+        are protected'
+      domain: PROTECT (PR)
+      sub_domain: Data Security (PR.DS)
+    NIST CSF v2.0-PR.DS-02:
+      control: 'PR.DS-02: The confidentiality, integrity, and availability of data-in-transit
+        are protected'
+      domain: PROTECT (PR)
+      sub_domain: Data Security (PR.DS)
+    NIST CSF v2.0-PR.DS-10:
+      control: 'PR.DS-10: The confidentiality, integrity, and availability of data-in-use
+        are protected'
+      domain: PROTECT (PR)
+      sub_domain: Data Security (PR.DS)
+    NIST CSF v2.0-PR.DS-11:
+      control: 'PR.DS-11: Backups of data are created, protected, maintained, and tested'
+      domain: PROTECT (PR)
+      sub_domain: Data Security (PR.DS)
+    NIST CSF v2.0-PR.IR-01:
+      control: 'PR.IR-01: Networks and environments are protected from unauthorized
+        logical access and usage'
+      domain: PROTECT (PR)
+      sub_domain: Technology Infrastructure Resilience (PR.IR)
+    NIST CSF v2.0-PR.IR-02:
+      control: 'PR.IR-02: The organization''s technology assets are protected from environmental
+        threats'
+      domain: PROTECT (PR)
+      sub_domain: Technology Infrastructure Resilience (PR.IR)
+    NIST CSF v2.0-PR.IR-03:
+      control: 'PR.IR-03: Mechanisms are implemented to achieve resilience requirements
+        in normal and adverse situations'
+      domain: PROTECT (PR)
+      sub_domain: Technology Infrastructure Resilience (PR.IR)
+    NIST CSF v2.0-PR.IR-04:
+      control: 'PR.IR-04: Adequate resource capacity to ensure availability is maintained'
+      domain: PROTECT (PR)
+      sub_domain: Technology Infrastructure Resilience (PR.IR)
+    NIST CSF v2.0-PR.PS-01:
+      control: 'PR.PS-01: Configuration management practices are established and applied'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-PR.PS-02:
+      control: 'PR.PS-02: Software is maintained, replaced, and removed commensurate
+        with risk'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-PR.PS-03:
+      control: 'PR.PS-03: Hardware is maintained, replaced, and removed commensurate
+        with risk'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-PR.PS-04:
+      control: 'PR.PS-04: Log records are generated and made available for continuous
+        monitoring'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-PR.PS-05:
+      control: 'PR.PS-05: Installation and execution of unauthorized software are prevented'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-PR.PS-06:
+      control: 'PR.PS-06: Secure software development practices are integrated, and
+        their performance is monitored throughout the software development life cycle'
+      domain: PROTECT (PR)
+      sub_domain: Platform Security (PR.PS)
+    NIST CSF v2.0-RC.CO-03:
+      control: 'RC.CO-03: Recovery activities and progress in restoring operational
+        capabilities are communicated to designated internal and external stakeholders'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Communication (RC.CO)
+    NIST CSF v2.0-RC.CO-04:
+      control: 'RC.CO-04: Public updates on incident recovery are shared using approved
+        methods and messaging'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Communication (RC.CO)
+    NIST CSF v2.0-RC.RP-01:
+      control: 'RC.RP-01: The recovery portion of the incident response plan is executed
+        once initiated from the incident response process'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RC.RP-02:
+      control: 'RC.RP-02: Recovery actions are selected, scoped, prioritized, and performed'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RC.RP-03:
+      control: 'RC.RP-03: The integrity of backups and other restoration assets is verified
+        before using them for restoration'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RC.RP-04:
+      control: 'RC.RP-04: Critical mission functions and cybersecurity risk management
+        are considered to establish post-incident operational norms'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RC.RP-05:
+      control: 'RC.RP-05: The integrity of restored assets is verified, systems and
+        services are restored, and normal operating status is confirmed'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RC.RP-06:
+      control: 'RC.RP-06: The end of incident recovery is declared based on criteria,
+        and incident-related documentation is completed'
+      domain: RECOVER (RC)
+      sub_domain: Incident Recovery Plan Execution (RC.RP)
+    NIST CSF v2.0-RS.AN-03:
+      control: 'RS.AN-03: Analysis is performed to establish what has taken place during
+        an incident and the root cause of the incident'
+      domain: RESPOND (RS)
+      sub_domain: Incident Analysis (RS.AN)
+    NIST CSF v2.0-RS.AN-06:
+      control: 'RS.AN-06: Actions performed during an investigation are recorded, and
+        the records'' integrity and provenance are preserved'
+      domain: RESPOND (RS)
+      sub_domain: Incident Analysis (RS.AN)
+    NIST CSF v2.0-RS.AN-07:
+      control: 'RS.AN-07: Incident data and metadata are collected, and their integrity
+        and provenance are preserved'
+      domain: RESPOND (RS)
+      sub_domain: Incident Analysis (RS.AN)
+    NIST CSF v2.0-RS.AN-08:
+      control: 'RS.AN-08: An incident''s magnitude is estimated and validated'
+      domain: RESPOND (RS)
+      sub_domain: Incident Analysis (RS.AN)
+    NIST CSF v2.0-RS.CO-02:
+      control: 'RS.CO-02: Internal and external stakeholders are notified of incidents'
+      domain: RESPOND (RS)
+      sub_domain: Incident Response Reporting and Communication (RS.CO)
+    NIST CSF v2.0-RS.CO-03:
+      control: 'RS.CO-03: Information is shared with designated internal and external
+        stakeholders'
+      domain: RESPOND (RS)
+      sub_domain: Incident Response Reporting and Communication (RS.CO)
+    NIST CSF v2.0-RS.MA-01:
+      control: 'RS.MA-01: The incident response plan is executed in coordination with
+        relevant third parties once an incident is declared'
+      domain: RESPOND (RS)
+      sub_domain: Incident Management (RS.MA)
+    NIST CSF v2.0-RS.MA-02:
+      control: 'RS.MA-02: Incident reports are triaged and validated'
+      domain: RESPOND (RS)
+      sub_domain: Incident Management (RS.MA)
+    NIST CSF v2.0-RS.MA-03:
+      control: 'RS.MA-03: Incidents are categorized and prioritized'
+      domain: RESPOND (RS)
+      sub_domain: Incident Management (RS.MA)
+    NIST CSF v2.0-RS.MA-04:
+      control: 'RS.MA-04: Incidents are escalated or elevated as needed'
+      domain: RESPOND (RS)
+      sub_domain: Incident Management (RS.MA)
+    NIST CSF v2.0-RS.MA-05:
+      control: 'RS.MA-05: The criteria for initiating incident recovery are applied'
+      domain: RESPOND (RS)
+      sub_domain: Incident Management (RS.MA)
+    NIST CSF v2.0-RS.MI-01:
+      control: 'RS.MI-01: Incidents are contained'
+      domain: RESPOND (RS)
+      sub_domain: Incident Mitigation (RS.MI)
+    NIST CSF v2.0-RS.MI-02:
+      control: 'RS.MI-02: Incidents are eradicated'
+      domain: RESPOND (RS)
+      sub_domain: Incident Mitigation (RS.MI)

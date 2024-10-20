@@ -1,0 +1,19 @@
+domains:
+  DR:
+    title: Disaster Recovery
+metrics:
+  - id: 01
+    domain: DR
+    title: Servers backed up in the last 24 hours
+    description: |
+      This metric measures the number of systems that have actually been backed up.
+    numerator: All production servers with a successful backup reported in the last 24 hours
+    denominator: All servers in the asset inventory flagged as production
+    slo:
+      - 0.8
+      - 0.9
+    weight: 0.5
+    tags:
+      - coverage
+    references:
+      - ISO27001:2013-A.17.2.1

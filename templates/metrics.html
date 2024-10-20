@@ -1,0 +1,29 @@
+# Metric Library
+
+{% for domain in domains %}
+## {{ domains[domain].title }}
+
+{% for metric in metrics %}{% if metric['domain'] == domain %}
+### {{ metric.title }}
+
+> {{ metric.description }}
+
+#### Scoring
+
+* SLO : {{ '{:.2f}%'.format(metric.slo[0] * 100) }} - {{ '{:.2f}%'.format(metric.slo[1] * 100) }}
+* Weight : {{ metric.weight }}
+
+#### Calculation
+
+(`{{ metric.numerator }}`) / (`{{ metric.denominator }}`)
+
+#### References
+
+|**Ref**|**Framework**|**Domain**|**Sub Domain**|
+|--|--|--|--|
+{% for ref in metric.references %}|`{{ ref }}`|{{ frameworks[ref]['framework'] }}|{{ frameworks[ref]['domain'] }}|{{ frameworks[ref]['sub_domain'] }}|
+{% endfor %}
+{% endif %}
+
+{% endfor %}
+{% endfor %}

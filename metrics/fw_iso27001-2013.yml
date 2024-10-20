@@ -1,0 +1,458 @@
+frameworks:
+  ISO27001:2013:
+    ISO27001:2013-A.10.1.1:
+      control: Policy on the use of cryptographic controls
+      domain: 10 Cryptography
+      sub_domain: A.10.1 Cryptographic controls
+    ISO27001:2013-A.10.1.2:
+      control: Key management
+      domain: 10 Cryptography
+      sub_domain: A.10.1 Cryptographic controls
+    ISO27001:2013-A.11.1.1:
+      control: Physical security perimeter
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.1.2:
+      control: Physical entry controls
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.1.3:
+      control: Securing offices, rooms and facilities
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.1.4:
+      control: Protecting against external and environmental threats
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.1.5:
+      control: Working in secure areas
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.1.6:
+      control: Delivery and loading areas
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.1 Secure areas
+    ISO27001:2013-A.11.2.1:
+      control: Equipment siting and protection
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.2:
+      control: Supporting utilities
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.3:
+      control: Cabling security
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.4:
+      control: Equipment maintenance
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.5:
+      control: Removal of assets
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.6:
+      control: Security of equipment and assets off-premises
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.7:
+      control: Secure disposal or reuse of equipment
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.8:
+      control: Unattended user equipment
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.11.2.9:
+      control: Clear desk and clear screen policy
+      domain: 11 Physical and environmental security
+      sub_domain: A.11.2 Equipment
+    ISO27001:2013-A.12.1.1:
+      control: Documented operating procedures
+      domain: 12 Operations security
+      sub_domain: A.12.1 Operational procedures and responsibilities
+    ISO27001:2013-A.12.1.2:
+      control: Change management
+      domain: 12 Operations security
+      sub_domain: A.12.1 Operational procedures and responsibilities
+    ISO27001:2013-A.12.1.3:
+      control: Capacity management
+      domain: 12 Operations security
+      sub_domain: A.12.1 Operational procedures and responsibilities
+    ISO27001:2013-A.12.1.4:
+      control: Separation of development, testing and operational environments
+      domain: 12 Operations security
+      sub_domain: A.12.1 Operational procedures and responsibilities
+    ISO27001:2013-A.12.2.1:
+      control: Controls against malware
+      domain: 12 Operations security
+      sub_domain: A.12.2 Protection from malware
+    ISO27001:2013-A.12.3.1:
+      control: Information backup
+      domain: 12 Operations security
+      sub_domain: A.12.3 Backup
+    ISO27001:2013-A.12.4.1:
+      control: Event logging
+      domain: 12 Operations security
+      sub_domain: A.12.4 Logging and monitoring
+    ISO27001:2013-A.12.4.2:
+      control: Protection of log information
+      domain: 12 Operations security
+      sub_domain: A.12.4 Logging and monitoring
+    ISO27001:2013-A.12.4.3:
+      control: Administrator and operator logs
+      domain: 12 Operations security
+      sub_domain: A.12.4 Logging and monitoring
+    ISO27001:2013-A.12.4.4:
+      control: Clock synchronisation
+      domain: 12 Operations security
+      sub_domain: A.12.4 Logging and monitoring
+    ISO27001:2013-A.12.5.1:
+      control: Installation of software on operational systems
+      domain: 12 Operations security
+      sub_domain: A.12.5 Control of operational software
+    ISO27001:2013-A.12.6.1:
+      control: Management of technical vulnerabilities
+      domain: 12 Operations security
+      sub_domain: A.12.6 Technical vulnerability management
+    ISO27001:2013-A.12.6.2:
+      control: Restrictions on software installation
+      domain: 12 Operations security
+      sub_domain: A.12.6 Technical vulnerability management
+    ISO27001:2013-A.12.7.1:
+      control: Information systems audit controls
+      domain: 12 Operations security
+      sub_domain: A.12.7 Information systems audit considerations
+    ISO27001:2013-A.13.1.1:
+      control: Network controls
+      domain: 13 Communications security
+      sub_domain: A.13.1 Network security management
+    ISO27001:2013-A.13.1.2:
+      control: Security of network services
+      domain: 13 Communications security
+      sub_domain: A.13.1 Network security management
+    ISO27001:2013-A.13.1.3:
+      control: Segregation in networks
+      domain: 13 Communications security
+      sub_domain: A.13.1 Network security management
+    ISO27001:2013-A.13.2.1:
+      control: Information transfer policies and procedures
+      domain: 13 Communications security
+      sub_domain: A.13.2 Information transfer
+    ISO27001:2013-A.13.2.2:
+      control: Agreements on information transfer
+      domain: 13 Communications security
+      sub_domain: A.13.2 Information transfer
+    ISO27001:2013-A.13.2.3:
+      control: Electronic messaging
+      domain: 13 Communications security
+      sub_domain: A.13.2 Information transfer
+    ISO27001:2013-A.13.2.4:
+      control: Confidentiality or nondisclosure agreements
+      domain: 13 Communications security
+      sub_domain: A.13.2 Information transfer
+    ISO27001:2013-A.14.1.1:
+      control: Information security requirements analysis and specification
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.1 Security requirements of information systems
+    ISO27001:2013-A.14.1.2:
+      control: Securing application services on public networks
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.1 Security requirements of information systems
+    ISO27001:2013-A.14.1.3:
+      control: Protecting application services transactions
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.1 Security requirements of information systems
+    ISO27001:2013-A.14.2.1:
+      control: Secure development policy
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.2:
+      control: System change control procedures
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.3:
+      control: Technical review of applications after operating platform changes
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.4:
+      control: Restrictions on changes to software packages
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.5:
+      control: Secure system engineering principles
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.6:
+      control: Secure development environment
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.7:
+      control: Outsourced development
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.8:
+      control: System security testing
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.2.9:
+      control: System acceptance testing
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.2 Security in development and support processes
+    ISO27001:2013-A.14.3.1:
+      control: Protection of test data
+      domain: 14 System acquisition, development and maintenance
+      sub_domain: A.14.3 Test data
+    ISO27001:2013-A.15.1.1:
+      control: Information security policy for supplier relationships
+      domain: 15 Supplier relationships
+      sub_domain: A.15.1 Information security in supplier relationships
+    ISO27001:2013-A.15.1.2:
+      control: Addressing security within supplier agreements
+      domain: 15 Supplier relationships
+      sub_domain: A.15.1 Information security in supplier relationships
+    ISO27001:2013-A.15.1.3:
+      control: Information and communication technology supply chain
+      domain: 15 Supplier relationships
+      sub_domain: A.15.1 Information security in supplier relationships
+    ISO27001:2013-A.15.2.1:
+      control: Monitoring and review of supplier services
+      domain: 15 Supplier relationships
+      sub_domain: A.15.2 Supplier service delivery management
+    ISO27001:2013-A.15.2.2:
+      control: Managing changes to supplier services
+      domain: 15 Supplier relationships
+      sub_domain: A.15.2 Supplier service delivery management
+    ISO27001:2013-A.16.1.1:
+      control: Responsibilities and procedures
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.2:
+      control: Reporting information security events
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.3:
+      control: Reporting information security weaknesses
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.4:
+      control: Assessment of and decision on information security events
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.5:
+      control: Response to information security incidents
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.6:
+      control: Learning from information security incidents
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.16.1.7:
+      control: Collection of evidence
+      domain: 16 Information security incident management
+      sub_domain: A.16.1 Management of information security incidents and improvements
+    ISO27001:2013-A.17.1.1:
+      control: Planning information security continuity
+      domain: 17 Information security aspects of business continuity management
+      sub_domain: A.17.1 Information security continuity
+    ISO27001:2013-A.17.1.2:
+      control: Implementing information security continuity
+      domain: 17 Information security aspects of business continuity management
+      sub_domain: A.17.1 Information security continuity
+    ISO27001:2013-A.17.1.3:
+      control: Verify, review and evaluate information security continuity
+      domain: 17 Information security aspects of business continuity management
+      sub_domain: A.17.1 Information security continuity
+    ISO27001:2013-A.17.2.1:
+      control: Availability of information processing facilities
+      domain: 17 Information security aspects of business continuity management
+      sub_domain: A.17.2 Redundancies
+    ISO27001:2013-A.18.1.1:
+      control: Identification of applicable legislation and contractual requirements
+      domain: 18 Compliance
+      sub_domain: A.18.1 Compliance with legal and contractual requirements
+    ISO27001:2013-A.18.1.2:
+      control: Intellectual property rights
+      domain: 18 Compliance
+      sub_domain: A.18.1 Compliance with legal and contractual requirements
+    ISO27001:2013-A.18.1.3:
+      control: Protection of records
+      domain: 18 Compliance
+      sub_domain: A.18.1 Compliance with legal and contractual requirements
+    ISO27001:2013-A.18.1.4:
+      control: Privacy and protection of personally identifiable information
+      domain: 18 Compliance
+      sub_domain: A.18.1 Compliance with legal and contractual requirements
+    ISO27001:2013-A.18.1.5:
+      control: Regulation of cryptographic controls
+      domain: 18 Compliance
+      sub_domain: A.18.1 Compliance with legal and contractual requirements
+    ISO27001:2013-A.18.2.1:
+      control: Independent review of information security
+      domain: 18 Compliance
+      sub_domain: A.18.2 Information security reviews
+    ISO27001:2013-A.18.2.2:
+      control: Compliance with security policies and standards
+      domain: 18 Compliance
+      sub_domain: A.18.2 Information security reviews
+    ISO27001:2013-A.18.2.3:
+      control: Technical compliance review
+      domain: 18 Compliance
+      sub_domain: A.18.2 Information security reviews
+    ISO27001:2013-A.5.1.1:
+      control: Policies for information security
+      domain: 5 Security Policies
+      sub_domain: A.5.1 Management direction for information security
+    ISO27001:2013-A.5.1.2:
+      control: Review of the policies for information security
+      domain: 5 Security Policies
+      sub_domain: A.5.1 Management direction for information security
+    ISO27001:2013-A.6.1.1:
+      control: Information security roles and responsibilities
+      domain: 6 Organization of information security
+      sub_domain: A.6.1 Internal organization
+    ISO27001:2013-A.6.1.2:
+      control: Segregation of duties
+      domain: 6 Organization of information security
+      sub_domain: A.6.1 Internal organization
+    ISO27001:2013-A.6.1.3:
+      control: Contact with authorities
+      domain: 6 Organization of information security
+      sub_domain: A.6.1 Internal organization
+    ISO27001:2013-A.6.1.4:
+      control: Contact with special interest groups
+      domain: 6 Organization of information security
+      sub_domain: A.6.1 Internal organization
+    ISO27001:2013-A.6.1.5:
+      control: Information security in project management
+      domain: 6 Organization of information security
+      sub_domain: A.6.1 Internal organization
+    ISO27001:2013-A.6.2.1:
+      control: Mobile device policy
+      domain: 6 Organization of information security
+      sub_domain: A.6.2 Mobile devices and teleworking
+    ISO27001:2013-A.6.2.2:
+      control: Teleworking
+      domain: 6 Organization of information security
+      sub_domain: A.6.2 Mobile devices and teleworking
+    ISO27001:2013-A.7.1.1:
+      control: Screening
+      domain: 7 Human resource security
+      sub_domain: A.7.1 Prior to employment
+    ISO27001:2013-A.7.1.2:
+      control: Terms and conditions of employment
+      domain: 7 Human resource security
+      sub_domain: A.7.1 Prior to employment
+    ISO27001:2013-A.7.2.1:
+      control: Management responsibilities
+      domain: 7 Human resource security
+      sub_domain: A.7.2 During employment
+    ISO27001:2013-A.7.2.2:
+      control: Information security awareness, education and training
+      domain: 7 Human resource security
+      sub_domain: A.7.2 During employment
+    ISO27001:2013-A.7.2.3:
+      control: Disciplinary process
+      domain: 7 Human resource security
+      sub_domain: A.7.2 During employment
+    ISO27001:2013-A.7.3.1:
+      control: Termination or change of employment responsibilities
+      domain: 7 Human resource security
+      sub_domain: A.7.3 Termination and change of employment
+    ISO27001:2013-A.8.1.1:
+      control: Inventory of assets
+      domain: 8 Asset management
+      sub_domain: A.8.1 Responsibility for assets
+    ISO27001:2013-A.8.1.2:
+      control: Ownership of assets
+      domain: 8 Asset management
+      sub_domain: A.8.1 Responsibility for assets
+    ISO27001:2013-A.8.1.3:
+      control: Acceptable use of assets
+      domain: 8 Asset management
+      sub_domain: A.8.1 Responsibility for assets
+    ISO27001:2013-A.8.1.4:
+      control: Return of assets
+      domain: 8 Asset management
+      sub_domain: A.8.1 Responsibility for assets
+    ISO27001:2013-A.8.2.1:
+      control: Classification of information
+      domain: 8 Asset management
+      sub_domain: A.8.2 Information classification
+    ISO27001:2013-A.8.2.2:
+      control: Labelling of information
+      domain: 8 Asset management
+      sub_domain: A.8.2 Information classification
+    ISO27001:2013-A.8.2.3:
+      control: Handling of assets
+      domain: 8 Asset management
+      sub_domain: A.8.2 Information classification
+    ISO27001:2013-A.8.3.1:
+      control: Management of removable media
+      domain: 8 Asset management
+      sub_domain: A.8.3 Media handling
+    ISO27001:2013-A.8.3.2:
+      control: Disposal of media
+      domain: 8 Asset management
+      sub_domain: A.8.3 Media handling
+    ISO27001:2013-A.8.3.3:
+      control: Physical media transfer
+      domain: 8 Asset management
+      sub_domain: A.8.3 Media handling
+    ISO27001:2013-A.9.1.1:
+      control: Access control policy
+      domain: 9 Access control
+      sub_domain: A.9.1 Business requirements of access control
+    ISO27001:2013-A.9.1.2:
+      control: Access to networks and network services
+      domain: 9 Access control
+      sub_domain: A.9.1 Business requirements of access control
+    ISO27001:2013-A.9.2.1:
+      control: User registration and de-registration
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.2.2:
+      control: User access provisioning
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.2.3:
+      control: Management of privileged access rights
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.2.4:
+      control: Management of secret authentication information of users
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.2.5:
+      control: Review of user access rights
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.2.6:
+      control: Removal or adjustment of access rights
+      domain: 9 Access control
+      sub_domain: A.9.2 User access management
+    ISO27001:2013-A.9.3.1:
+      control: Use of secret authentication information
+      domain: 9 Access control
+      sub_domain: A.9.3 User responsibilities
+    ISO27001:2013-A.9.4.1:
+      control: Information access restriction
+      domain: 9 Access control
+      sub_domain: A.9.4 System and application access control
+    ISO27001:2013-A.9.4.2:
+      control: Secure log-on procedures
+      domain: 9 Access control
+      sub_domain: A.9.4 System and application access control
+    ISO27001:2013-A.9.4.3:
+      control: Password management system
+      domain: 9 Access control
+      sub_domain: A.9.4 System and application access control
+    ISO27001:2013-A.9.4.4:
+      control: Use of privileged utility programs
+      domain: 9 Access control
+      sub_domain: A.9.4 System and application access control
+    ISO27001:2013-A.9.4.5:
+      control: Access control to program source code
+      domain: 9 Access control
+      sub_domain: A.9.4 System and application access control
