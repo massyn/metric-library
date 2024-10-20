@@ -17,3 +17,5 @@ metrics:
       - coverage
     references:
       - ISO27001:2013-A.17.2.1
+      - ISO27001:2022-A.8.13
+      - NIST CSF v2.0-PR.DS-11

@@ -23,15 +23,23 @@ class Metrics:
                             data[i] = data[i] | d[i]
         return data
 
-    def render_jina(self,template,data,output = None):
+    def render_jina(self,template,data,output = None,fwfilter = None):
         frameworks = {}
         for fw in data['frameworks']:
             for i in data['frameworks'][fw]:
                 data['frameworks'][fw][i]['framework'] = fw
+                for m in data['metrics']:
+                    for r in m['references']:
+                        if r == i:
+                            if not 'measures' in data['frameworks'][fw][i]:
+                                data['frameworks'][fw][i]['measures'] = []
+                            if not m['title'] in data['frameworks'][fw][i]['measures']:
+                                data['frameworks'][fw][i]['measures'].append(m['title'])
                 frameworks[i] = data['frameworks'][fw][i]
+
         template_dir = 'templates'
         env = Environment(loader=FileSystemLoader(template_dir)).get_template(template)
-        result = env.render(metrics = data['metrics'],domains = data['domains'],frameworks = frameworks)
+        result = env.render(metrics = data['metrics'],domains = data['domains'],frameworks = frameworks, fwfilter = fwfilter, thisfw = data['frameworks'].get(fwfilter,{}))
         if output is None:
             print(result)
         else:
@@ -61,3 +69,6 @@ if __name__=='__main__':
     data = M.parse_yaml('metrics')
 
     M.render_jina('metrics.html',data,'docs/metrics.md')
+    M.render_jina('framework.html',data,'docs/iso27001-2013.md','ISO27001:2013')
+    M.render_jina('framework.html',data,'docs/iso27001-2022.md','ISO27001:2022')
+    M.render_jina('framework.html',data,'docs/nist-csfv20.md','NIST CSF v2.0')
